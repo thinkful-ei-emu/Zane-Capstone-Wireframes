@@ -1,0 +1,102 @@
+body{
+  font-family: 'Farro', sans-serif;
+
+}
+.nav-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+  border-bottom: 2px solid black;
+}
+
+.zap-logo{
+  font-family: 'Martel', serif;
+  font-size:28px;
+}
+
+.signup-section{
+padding:15px;
+}
+
+.signup-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border:2px black solid;
+  border-radius: 3px;
+  width:80%;
+  margin-left: auto;  
+  margin-right:auto;
+  height: 40vh;
+}
+
+.nav-li{
+  list-style: none;
+}
+
+h1{
+  font-size:20px;
+}
+
+footer{
+  padding:30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media  screen and (min-width:600px){
+  .nav-bar{
+    display:flex;
+    flex-direction: row;
+
+  }
+}
+
+@media screen and (min-width:900px){
+  .zap-logo{
+    font-size:36px;
+  }
+
+  .nav-li{
+    font-size:23px;
+  }
+
+  .signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border:2px black solid;
+    border-radius: 3px;
+    width:80%;
+    margin-left: auto;  
+    margin-right:auto;
+    height: 60vh;
+    font-size:24px;
+  }
+
+  label{
+    font-size: 28px;
+    margin-top: 30px;
+
+  }
+
+  h1{
+    font-size: 34px;
+  }
+
+  input{
+    width:300px;
+    margin-top:10px;
+  }
+}
